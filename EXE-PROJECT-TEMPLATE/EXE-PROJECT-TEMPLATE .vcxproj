@@ -98,4 +98,7 @@
 
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(SolutionDir)\third_party\conan\conandeps.props')" Project="$(SolutionDir)\third_party\conan\conandeps.props" />
+  </ImportGroup>
 </Project>
