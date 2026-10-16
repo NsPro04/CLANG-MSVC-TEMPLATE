@@ -33,6 +33,7 @@
   <PropertyGroup>
     <SolutionOutDir>$(SolutionDir)\dist\$(Configuration)\Bin\</SolutionOutDir>
     <CustomBuildAfterTargets>Build</CustomBuildAfterTargets>
+    <GenerateManifest>false</GenerateManifest>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
